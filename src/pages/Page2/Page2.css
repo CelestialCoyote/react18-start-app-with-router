@@ -1,0 +1,6 @@
+.page2 {
+    background-color: lightgreen;
+    height: 100%;
+    flex-grow: 1;
+    max-width: 75%;
+}
