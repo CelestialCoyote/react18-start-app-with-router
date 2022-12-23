@@ -1,0 +1,15 @@
+.navbar {
+    width: 90vw;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .link {
+    color: gray;
+  }
+  
+  .active {
+    color: purple;
+  }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useHistory } from 'react-router-dom';
-import Layout from './pages/Layout/Layout';
+//import Layout from './pages/Layout/Layout';
+import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import Page1 from './pages/Page1/Page1';
 import Page2 from './pages/Page2/Page2';
@@ -12,13 +13,15 @@ const App = () => {
     return (
         <div className="app">
             <div>React Start Project</div>
+            <Navbar />
             <Routes>
-                <Route path="/" element={<Layout />}>
-                    <Route index element={<Home />} />
+                {/*<Route path="/" element={<Layout />}>*/}
+                    {/*<Route index element={<Home />} />*/}
+                    <Route path="/" element={<Home />} />
                     <Route path="page1" element={<Page1 />} />
                     <Route path="page2" element={<Page2 />} />
                     <Route path="*" element={<NoPage />} />
-                </Route>
+                {/*</Route>*/}
             </Routes>
         </div>
     );
