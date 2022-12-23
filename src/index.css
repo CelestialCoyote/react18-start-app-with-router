@@ -5,30 +5,42 @@
 }
 
 html {
+    background-color: lightblue;
+    padding: 1.0rem;
     font-size: 16px;
+    min-height: 100vh;
+    display: flex;
 }
 
 body {
-    background-color: aqua;
+    background-color: lightgreen;
+    padding: 1.0rem;
     display: flex;
+    flex-grow: 1;
     font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
+    /*height: 100vh;*/
+    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
+    background-color: orange;
+    padding: 1.0rem;
     /*align-items: center;*/
     display: flex;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     justify-content: center;
+    width: 100%;
 }
 
 .app {
+    background-color: yellow;
+    padding: 1.0rem;
     /*align-items: center;*/
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: center;
+    /*height: 100vh;*/
+    /*justify-content: center;*/
     width: 100%;
 }
