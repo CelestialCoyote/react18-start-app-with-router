@@ -11,24 +11,20 @@ html {
 }
 
 body {
-    display: flex;
-    flex-grow: 1;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
+body, #root {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
 }
 
 .app {
     background-color: yellow;
-    padding: 1.0rem;
-    /*display: flex;*/
+    display: flex;
     flex-direction: column;
-    width: 80%;
+    flex-grow: 1;
 }

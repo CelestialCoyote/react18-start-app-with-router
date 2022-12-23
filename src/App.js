@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useHistory } from 'react-router-dom';
 //import Layout from './pages/Layout/Layout';
-import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Page1 from './pages/Page1/Page1';
 import Page2 from './pages/Page2/Page2';
@@ -12,8 +12,7 @@ const App = () => {
 
     return (
         <div className="app">
-            <div>React Start Project</div>
-            <Navbar />
+            <Header />
             <Routes>
                 {/*<Route path="/" element={<Layout />}>*/}
                     {/*<Route index element={<Home />} />*/}
